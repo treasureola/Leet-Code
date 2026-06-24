@@ -11,7 +11,7 @@ class Solution:
             if p1 >= 0 and nums1[p1] > nums2[p2]:
                 nums1[pmerge] = nums1[p1]
                 p1 -= 1
-                pmerge -= 1
+                pmerge = pmerge - 1
             else:
                 nums1[pmerge] = nums2[p2]
                 p2 -= 1
